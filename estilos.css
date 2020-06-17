@@ -1,16 +1,56 @@
+body{
+    background-image: url(imagens/imagemfundo.png);
+}
+
 /* CABEÇALHO INICIO */
+
+header#cabecalho{
+    background-color: transparent;
+    height: 300px;
+}
 
 /* CABEÇALHO FIM */
 
 /* CORPO INICIO */
 
-main#copo .carousel{
-    width: 100%;
-    height: 500px;
+.carousel-item > img {
+  height: auto;
+  min-width: 100%;
 }
 
 /* CORPO FIM */
 
 /* RODAPÉ INICIO */
 
+footer#rodape{
+    background-color: dimgray;
+    height: 100px;    
+}
+
 /* RODAPÉ FIM */
+
+/* MEDIA QUERIES */
+
+/* @media screen and (max-width: 600px) {
+  .carousel-item img {
+    height: 220px;
+  }
+}
+
+@media screen and (min-width: 601px) and (max-width: 980px) {
+  .carousel-item img {
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .carousel-item img {
+    height: 500px;
+  }
+} */
+
+@media screen and (min-width: 1400px) {
+    .carousel-item img {
+      height: 700px;
+    }
+  }
