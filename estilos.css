@@ -1,4 +1,16 @@
-body{
-    background-color: rgb(253, 165, 194);
-    background-image: url(imagens/imagemfundo.png);
+/* CABEÇALHO INICIO */
+
+/* CABEÇALHO FIM */
+
+/* CORPO INICIO */
+
+main#copo .carousel{
+    width: 100%;
+    height: 500px;
 }
+
+/* CORPO FIM */
+
+/* RODAPÉ INICIO */
+
+/* RODAPÉ FIM */
