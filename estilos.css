@@ -44,7 +44,7 @@ header#cabecalho img {
   color: rgb(186, 186, 188);
   font-size: 18pt;
   font-weight: 500;
-  transition: 1s;
+  transition: 0.5s;
 }
 
 .nav .nav-item a:hover {
